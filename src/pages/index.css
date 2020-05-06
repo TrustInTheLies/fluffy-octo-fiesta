@@ -1,0 +1,24 @@
+@import url(../vendor/fonts.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/navbar/navbar.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/searching/searching.css);
+
+.root {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab";
+}
+
+p {
+  font-family: "Roboto";
+}
+
+a {
+  font-family: "Roboto";
+}

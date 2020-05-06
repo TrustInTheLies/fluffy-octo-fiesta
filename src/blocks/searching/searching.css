@@ -1,0 +1,7 @@
+@import url(./__preloader/searching__preloader.css);
+@import url(./__paragraph/searching__paragraph.css);
+
+.searching {
+  position: relative;
+  margin-top: 0;
+}
