@@ -4,4 +4,7 @@
 .searching {
   position: relative;
   margin-top: 0;
+  background: #f5f6f7;
+  height: 202px;
+  padding-top: 80px;
 }

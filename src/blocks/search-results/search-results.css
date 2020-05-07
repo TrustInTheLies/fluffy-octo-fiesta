@@ -1,0 +1,11 @@
+@import url(./__cards/search-results__cards.css);
+@import url(./__header/search-results__header.css);
+@import url(./__show-more/search-results__show-more.css);
+
+.search-results {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f5f6f7;
+}

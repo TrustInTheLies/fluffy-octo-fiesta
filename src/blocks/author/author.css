@@ -1,0 +1,8 @@
+@import url(./__info/author__info.css);
+@import url(./__photo/author__photo.css);
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

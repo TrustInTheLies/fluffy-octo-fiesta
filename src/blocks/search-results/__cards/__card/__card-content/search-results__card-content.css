@@ -1,0 +1,9 @@
+@import url(./__card-paragraph/search-results__card-paragraph.css);
+@import url(./__card-source/search-results__card-source.css);
+@import url(./__card-title/search-results__card-title.css);
+@import url(./__card-date/search-results__card-date.css);
+
+.search-results__card-content {
+  margin-left: 24px;
+  margin-right: 24px;
+}

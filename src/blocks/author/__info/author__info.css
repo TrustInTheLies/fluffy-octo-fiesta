@@ -1,0 +1,6 @@
+@import url(./__info-paragraph/author__info-paragraph.css);
+@import url(./__info-title/author__info-title.css);
+
+.author__info {
+  max-width: 600px;
+}

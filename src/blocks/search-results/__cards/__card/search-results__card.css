@@ -1,0 +1,8 @@
+@import url(./__card-content/search-results__card-content.css);
+@import url(./__card-image/search-results__card-image.css);
+
+.search-results__card {
+  border-radius: 15px;
+  background: #ffffff;
+  cursor: pointer;
+}

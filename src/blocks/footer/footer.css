@@ -1,0 +1,12 @@
+@import url(./__date/footer__date.css);
+@import url(./__navbar/footer__navbar.css);
+@import url(./__socials/footer__socials.css);
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 104px;
+  margin-right: 106px;
+  margin-bottom: 25px;
+}

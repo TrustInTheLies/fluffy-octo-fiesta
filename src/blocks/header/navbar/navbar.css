@@ -1,1 +1,12 @@
 @import url(./__link/navbar__link.css);
+@import url(./__title/navbar__title.css);
+@import url(./__links/navbar__links.css);
+@import url(./__link_active/navbar__link_active.css);
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
