@@ -1,6 +1,6 @@
-@import url(./__cards/search-results__cards.css);
-@import url(./__header/search-results__header.css);
-@import url(./__show-more/search-results__show-more.css);
+@import url(./search-results__cards.css);
+@import url(./search-results__header.css);
+@import url(./search-results__show-more.css);
 
 .search-results {
   margin-left: auto;

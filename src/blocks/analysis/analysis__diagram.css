@@ -1,0 +1,4 @@
+.analysis__diagram {
+  display: grid;
+  grid-template-columns: 104px auto;
+}

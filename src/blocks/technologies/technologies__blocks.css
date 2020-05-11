@@ -1,0 +1,6 @@
+.technologies__blocks {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  margin-right: 230px;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>News Analyzer</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -11,19 +11,19 @@
     />
     <link
       rel="shortcut icon"
-      href="../src/images/favicon.png"
+      href="<%=require('./images/favicon.png')%>"
       type="image/x-icon"
     />
   </head>
   <body class="root">
-    <header class="header">
+    <header class="header_background">
       <nav class="navbar">
-        <a href="" class="link navbar__title">NewsAnalyzer</a>
+        <a href="./index.html" class="link navbar__title">NewsAnalyzer</a>
         <div class="navbar__links">
           <div class="navbar__link_active">
-            <a href="" class="link navbar__link">Главная</a>
+            <a href="./index.html" class="link navbar__link">Главная</a>
           </div>
-          <a href="" class="link navbar__link">О проекте</a>
+          <a href="./about.html" class="link navbar__link">О проекте</a>
         </div>
       </nav>
       <section class="search">
@@ -48,7 +48,7 @@
     </section>
     <section class="search-failed">
       <img
-        src="../src/images/not-found.svg"
+        src="<%=require('./images/not-found.svg')%>"
         alt="fail"
         class="search-failed__image"
       />
@@ -60,24 +60,26 @@
     <section class="search-results">
       <div class="search-results__header">
         <h2 class="search-results__title">Результаты поиска</h2>
-        <a href="" class="link search-results__analytics"
+        <a href="./analytics.html" class="link search-results__analytics"
           >Посмотреть аналитику &gt</a
         >
       </div>
       <div class="search-results__cards">
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -86,19 +88,21 @@
             </div></a
           >
         </div>
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -107,19 +111,21 @@
             </div></a
           >
         </div>
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -128,19 +134,21 @@
             </div></a
           >
         </div>
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -149,19 +157,21 @@
             </div></a
           >
         </div>
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -170,19 +180,21 @@
             </div></a
           >
         </div>
-        <div class="search-results__card">
+        <div class="search-results__card card">
           <a href=""
             ><img
-              src="../src/images/card.png"
+              src="<%=require('./images/card.png')%>"
               alt="card"
               class="search-results__card-image"
             />
-            <div class="search-results__card-content">
-              <p class="search-results__card-date">2 августа, 2019</p>
+            <div class="search-results__card-content card-content">
+              <p class="search-results__card-date card-date">2 августа, 2019</p>
               <h3 class="search-results__card-title">
                 Национальное достояние – парки
               </h3>
-              <p class="paragraph search-results__card-paragraph">
+              <p
+                class="paragraph search-results__card-paragraph card-paragraph"
+              >
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
                 начала складываться система национальных парков – охраняемых
                 территорий, где и сегодня каждый может приобщиться к природе.
@@ -195,7 +207,11 @@
       <button class="search-results__show-more">Показать еще</button>
     </section>
     <section class="author">
-      <img src="../src/images/photo.png" alt="photo" class="author__photo" />
+      <img
+        src="<%=require('./images/photo.png')%>"
+        alt="photo"
+        class="author__photo"
+      />
       <div class="author__info">
         <h2 class="author__info-title">Об авторе</h2>
         <p class="paragraph author__info-paragraph">
@@ -211,19 +227,24 @@
     <footer class="footer">
       <p class="footer__date">© 2020 Artem Morinov</p>
       <nav class="footer__navbar">
-        <a href="" class="link footer__link">Главная</a>
-        <a href="" class="link footer__link">О проекте</a>
-        <a href="" class="link footer__link">Яндекс.Практикум</a>
+        <a href="./index.html" class="link footer__link">Главная</a>
+        <a href="./about.html" class="link footer__link">О проекте</a>
+        <a href="https://praktikum.yandex.ru/" class="link footer__link"
+          >Яндекс.Практикум</a
+        >
       </nav>
       <div class="footer__socials">
-        <a href=""
+        <a href="https://github.com/TrustInTheLies"
           ><img
-            src="../src/images/github.svg"
+            src="<%=require('./images/github.svg')%>"
             alt="github"
             class="footer__social"
         /></a>
-        <a href="">
-          <img src="../src/images/fb.svg" alt="facebook" class="footer__social"
+        <a href="https://ru-ru.facebook.com/">
+          <img
+            src="<%=require('./images/fb.svg')%>"
+            alt="facebook"
+            class="footer__social"
         /></a>
       </div>
     </footer>

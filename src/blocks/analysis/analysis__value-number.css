@@ -1,0 +1,9 @@
+.analysis__value-number {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 6px;
+}

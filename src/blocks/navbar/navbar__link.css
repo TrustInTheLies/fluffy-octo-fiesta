@@ -1,0 +1,11 @@
+.navbar__link {
+  color: #b6bcbf;
+}
+
+.navbar__link:first-child {
+  color: #ffffff;
+}
+
+.navbar__link:hover {
+  color: #ffffff;
+}

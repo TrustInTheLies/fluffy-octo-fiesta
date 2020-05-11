@@ -1,0 +1,11 @@
+@import url(./request__root.css);
+@import url(./request__bold.css);
+@import url(./request__path.css);
+@import url(./request__title.css);
+@import url(./request__paragraph.css);
+
+.request {
+  margin-left: 104px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}

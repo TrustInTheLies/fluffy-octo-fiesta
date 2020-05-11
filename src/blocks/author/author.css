@@ -1,5 +1,6 @@
-@import url(./__info/author__info.css);
-@import url(./__photo/author__photo.css);
+@import url(./author__info.css);
+@import url(./author__photo.css);
+@import url(./author__info-title.css);
 
 .author {
   display: flex;

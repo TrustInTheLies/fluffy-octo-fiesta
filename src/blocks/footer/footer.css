@@ -1,6 +1,6 @@
-@import url(./__date/footer__date.css);
-@import url(./__navbar/footer__navbar.css);
-@import url(./__socials/footer__socials.css);
+@import url(./footer__date.css);
+@import url(./footer__navbar.css);
+@import url(./footer__socials.css);
 
 .footer {
   display: flex;
@@ -9,4 +9,5 @@
   margin-left: 104px;
   margin-right: 106px;
   margin-bottom: 25px;
+  margin-top: 30px;
 }

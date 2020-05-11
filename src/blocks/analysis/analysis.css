@@ -1,0 +1,16 @@
+@import url(./analysis__date.css);
+@import url(./analysis__dates.css);
+@import url(./analysis__diagram.css);
+@import url(./analysis__key.css);
+@import url(./analysis__keys.css);
+@import url(./analysis__percent.css);
+@import url(./analysis__percentage.css);
+@import url(./analysis__title.css);
+@import url(./analysis__value-number.css);
+@import url(./analysis__value.css);
+@import url(./analysis__values.css);
+
+.analysis {
+  padding: 80px 104px;
+  background: #f5f6f7;
+}

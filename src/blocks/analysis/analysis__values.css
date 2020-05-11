@@ -1,0 +1,5 @@
+.analysis__values {
+  height: 538px;
+  display: grid;
+  grid-auto-rows: 1fr;
+}

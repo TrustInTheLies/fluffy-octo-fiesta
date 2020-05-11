@@ -1,5 +1,5 @@
-@import url(./__title/search__title.css);
-@import url(./__paragraph/search__paragraph.css);
+@import url(./search__title.css);
+@import url(./search__paragraph.css);
 
 .search {
   max-width: 608px;

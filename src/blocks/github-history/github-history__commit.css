@@ -1,0 +1,6 @@
+@import url(../card/card.css);
+
+.github-history__commit {
+  width: 400px;
+  height: 288px;
+}

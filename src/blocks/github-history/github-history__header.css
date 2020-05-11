@@ -1,0 +1,9 @@
+.github-history__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 72px;
+  margin-bottom: 64px;
+  margin-left: 104px;
+  margin-right: 130px;
+}

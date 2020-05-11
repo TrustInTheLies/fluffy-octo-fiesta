@@ -1,5 +1,5 @@
-@import url(./__preloader/searching__preloader.css);
-@import url(./__paragraph/searching__paragraph.css);
+@import url(./searching__preloader.css);
+@import url(./searching__paragraph.css);
 
 .searching {
   position: relative;

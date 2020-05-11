@@ -1,0 +1,5 @@
+.analysis__dates {
+  height: 538px;
+  display: grid;
+  grid-auto-rows: 1fr;
+}

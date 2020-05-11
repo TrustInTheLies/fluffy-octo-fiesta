@@ -1,0 +1,5 @@
+.header_background {
+  background-image: url(../../images/bg-image.png);
+  height: 576px;
+  background-size: cover;
+}

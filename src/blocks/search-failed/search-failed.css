@@ -1,6 +1,6 @@
-@import url(./__paragraph/search-failed__paragraph.css);
-@import url(./__message/search-failed__message.css);
-@import url(./__image/search-failed__image.css);
+@import url(./search-failed__paragraph.css);
+@import url(./search-failed__message.css);
+@import url(./search-failed__image.css);
 
 .search-failed {
   display: flex;

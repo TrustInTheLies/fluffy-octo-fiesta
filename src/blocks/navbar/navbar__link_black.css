@@ -1,0 +1,7 @@
+.navbar__link_black {
+  color: #b6bcbf;
+}
+
+.navbar__link_black:hover {
+  color: #1a1b22;
+}
