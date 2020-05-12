@@ -3,3 +3,9 @@
   display: flex;
   padding-bottom: 70px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__commits {
+    padding-bottom: 48px;
+  }
+}

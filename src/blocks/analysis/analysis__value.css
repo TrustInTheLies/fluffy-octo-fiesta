@@ -7,29 +7,29 @@
 }
 
 .analysis__value:nth-child(1) {
-  width: 178px;
+  width: 15%;
 }
 
 .analysis__value:nth-child(2) {
-  width: 256px;
+  width: 18%;
 }
 
 .analysis__value:nth-child(3) {
-  width: 120px;
+  width: 11%;
 }
 
 .analysis__value:nth-child(4) {
-  width: 424px;
+  width: 39%;
 }
 
 .analysis__value:nth-child(5) {
-  width: 528px;
+  width: 45%;
 }
 
 .analysis__value:nth-child(6) {
-  width: 816px;
+  width: 73%;
 }
 
 .analysis__value:nth-child(7) {
-  width: 368px;
+  width: 34%;
 }

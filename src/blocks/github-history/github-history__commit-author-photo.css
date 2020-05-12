@@ -3,3 +3,17 @@
   height: 64px;
   margin-right: 16px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__commit-author-photo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__commit-author-photo {
+    width: 48px;
+    height: 48px;
+  }
+}

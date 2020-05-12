@@ -3,3 +3,15 @@
   width: 40px;
   top: 40%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__commit-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__commit-button {
+    display: none;
+  }
+}

@@ -3,3 +3,18 @@
   line-height: 46px;
   margin: 0;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__title {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 336px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

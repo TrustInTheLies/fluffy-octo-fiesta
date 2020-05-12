@@ -1,3 +1,15 @@
 .search-results__card-image {
   border-radius: 15px 15px 0 0;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .search-results__card-image {
+    max-width: 224px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .search-results__card-image {
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,20 @@
+.github-history__link-button {
+  display: none;
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  border: 1px solid #1a1b22;
+  border-radius: 80px;
+  background: transparent;
+  width: 288px;
+  height: 56px;
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__link-button {
+    display: inline-block;
+  }
+}

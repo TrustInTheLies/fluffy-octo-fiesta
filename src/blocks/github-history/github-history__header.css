@@ -7,3 +7,21 @@
   margin-left: 104px;
   margin-right: 130px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__header {
+    margin-left: 40px;
+    margin-right: 48px;
+    margin-bottom: 32px;
+    padding-top: 40px;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__header {
+    margin-left: 16px;
+    padding-top: 32px;
+    margin-bottom: 16px;
+  }
+}

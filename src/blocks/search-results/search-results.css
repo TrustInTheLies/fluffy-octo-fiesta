@@ -1,6 +1,7 @@
 @import url(./search-results__cards.css);
 @import url(./search-results__header.css);
 @import url(./search-results__show-more.css);
+@import url(./search-results__card-date.css);
 
 .search-results {
   margin-left: auto;
@@ -8,4 +9,16 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background: #f5f6f7;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .search-results {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .search-results {
+    padding-bottom: 40px;
+  }
 }

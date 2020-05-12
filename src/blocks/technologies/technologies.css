@@ -1,7 +1,7 @@
 @import url(./technologies__block-title.css);
-@import url(./technologies__block.css);
 @import url(./technologies__blocks.css);
 @import url(./technologies__title.css);
+@import url(./technologies__block-image.css);
 
 .technologies {
   display: flex;
@@ -10,4 +10,20 @@
   padding-top: 80px;
   padding-bottom: 97px;
   background: #f5f6f7;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .technologies {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .technologies {
+    padding-top: 32px;
+    padding-bottom: 52px;
+    flex-direction: column;
+  }
 }
