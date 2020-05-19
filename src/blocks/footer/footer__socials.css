@@ -1,0 +1,15 @@
+@import url(./footer__social.css);
+
+.footer__socials {
+  display: flex;
+  width: 68px;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__socials {
+    order: 3;
+  }
+}

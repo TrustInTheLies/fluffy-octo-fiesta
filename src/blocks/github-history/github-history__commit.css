@@ -1,0 +1,20 @@
+@import url(../card/card.css);
+
+.github-history__commit {
+  width: 400px;
+  height: 288px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__commit {
+    width: 336px;
+    height: 242px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__commit {
+    width: 288px;
+    height: 264px;
+  }
+}

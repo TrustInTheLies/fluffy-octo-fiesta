@@ -1,0 +1,12 @@
+.github-history__link-button {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  border: 1px solid #1a1b22;
+  border-radius: 80px;
+  background: transparent;
+  width: 288px;
+  height: 56px;
+  margin-bottom: 32px;
+}

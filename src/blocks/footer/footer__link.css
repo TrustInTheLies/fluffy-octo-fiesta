@@ -1,0 +1,16 @@
+.footer__link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  margin-right: 40px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer__link {
+    margin-right: 25px;
+  }
+}

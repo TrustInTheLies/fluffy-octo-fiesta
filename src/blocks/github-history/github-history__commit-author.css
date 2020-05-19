@@ -1,0 +1,4 @@
+.github-history__commit-author {
+  display: flex;
+  align-items: flex-start;
+}

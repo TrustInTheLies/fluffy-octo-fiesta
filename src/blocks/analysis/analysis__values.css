@@ -1,0 +1,11 @@
+.analysis__values {
+  max-height: 538px;
+  display: grid;
+  grid-auto-rows: 1fr;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .analysis__values {
+    max-height: 328px;
+  }
+}

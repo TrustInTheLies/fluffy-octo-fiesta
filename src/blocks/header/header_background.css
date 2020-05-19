@@ -1,0 +1,4 @@
+.header_background {
+  background: url(../../images/bg-image.png) no-repeat center fixed;
+  background-size: cover;
+}

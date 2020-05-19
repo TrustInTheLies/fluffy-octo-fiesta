@@ -1,0 +1,12 @@
+.github-history__link-button-container {
+  width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__link-button-container {
+    display: block;
+  }
+}

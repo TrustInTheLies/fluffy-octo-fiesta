@@ -1,0 +1,16 @@
+@import url(./footer__link.css);
+
+.footer__navbar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__navbar {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}

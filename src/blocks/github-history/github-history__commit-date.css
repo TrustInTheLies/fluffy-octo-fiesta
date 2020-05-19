@@ -1,0 +1,20 @@
+.github-history__commit-date {
+  padding-top: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .github-history__commit-date {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0;
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .github-history__commit-date {
+    padding-top: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}

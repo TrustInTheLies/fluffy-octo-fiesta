@@ -1,0 +1,9 @@
+.request__path {
+  color: #b6bcbf;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .request__path {
+    display: none;
+  }
+}

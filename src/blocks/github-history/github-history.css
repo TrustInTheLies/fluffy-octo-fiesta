@@ -1,0 +1,20 @@
+@import url(./github-history__header.css);
+@import url(./github-history__title.css);
+@import url(./github-history__link.css);
+@import url(./github-history__commits.css);
+@import url(./github-history__commit.css);
+@import url(./github-history__commit-date.css);
+@import url(./github-history__commit-author.css);
+@import url(./github-history__commit-author-photo.css);
+@import url(./github-history__commit-author-name.css);
+@import url(./github-history__commit-author-email.css);
+@import url(./github-history__commit-text.css);
+@import url(./github-history__commit-button.css);
+@import url(./github-history__link-button-container.css);
+@import url(./github-history__link-button.css);
+@import url(./github-history__pagination.css);
+
+.github-history {
+  background: #f5f6f7;
+  margin-bottom: 30px;
+}

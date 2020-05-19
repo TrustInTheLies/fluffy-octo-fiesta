@@ -1,0 +1,23 @@
+.navbar__title {
+  font-family: "Roboto Slab", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 104px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .navbar__title {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar__title {
+    margin-left: 16px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

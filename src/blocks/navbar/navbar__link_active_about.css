@@ -1,0 +1,14 @@
+.navbar__link_active_about {
+  margin-top: 30px;
+  margin-left: 34px;
+  padding-bottom: 27px;
+  border-bottom: 3px solid #1a1b22;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar__link_active_about {
+    margin-top: 18px;
+    margin-left: 11px;
+    padding-bottom: 15px;
+  }
+}

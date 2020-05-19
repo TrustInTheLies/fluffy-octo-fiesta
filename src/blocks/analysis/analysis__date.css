@@ -1,0 +1,10 @@
+.analysis__date {
+  font-size: 18px;
+  align-self: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .analysis__date {
+    margin: 0;
+  }
+}
