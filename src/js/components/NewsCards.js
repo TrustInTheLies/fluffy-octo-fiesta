@@ -13,19 +13,21 @@ export default class NewsCards {
   }
   renderList(results) {
     const options = { day: "numeric", month: "long", year: "numeric" };
-    let data = JSON.parse(localStorage.getItem("results"));
-    let shownElements = data.articles.slice(this.firstCard, this.lastCard);
+    const searchResults = JSON.parse(localStorage.getItem("results"));
+    const shownElements = searchResults.articles.slice(
+      this.firstCard,
+      this.lastCard
+    );
     for (let index = 0; index < shownElements.length; index++) {
       this.renderCard(
-        data.articles[this.firstCard].url,
-        data.articles[this.firstCard].urlToImage,
-        new Date(data.articles[this.firstCard].publishedAt).toLocaleDateString(
-          "ru",
-          options
-        ),
-        data.articles[this.firstCard].title,
-        data.articles[this.firstCard].description,
-        data.articles[this.firstCard].source.name
+        searchResults.articles[this.firstCard].url,
+        searchResults.articles[this.firstCard].urlToImage,
+        new Date(
+          searchResults.articles[this.firstCard].publishedAt
+        ).toLocaleDateString("ru", options),
+        searchResults.articles[this.firstCard].title,
+        searchResults.articles[this.firstCard].description,
+        searchResults.articles[this.firstCard].source.name
       );
       this.firstCard++;
       this.lastCard++;

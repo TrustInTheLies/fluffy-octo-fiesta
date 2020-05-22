@@ -1,3 +1,5 @@
+import sanitizeHTML from "../utils/sanitizeHTML";
+
 export default class CommitCard {
   create(url, name, email, date, message, avatar) {
     const template = document.createElement("div");
@@ -8,28 +10,28 @@ export default class CommitCard {
     template.insertAdjacentHTML(
       "beforeend",
       `<div class="github-history__commit card swiper-slide">
-    <a href="${url}" target="_blank">
+    <a href="${sanitizeHTML(url)}" target="_blank">
       <div class="card-content">
         <p class="github-history__commit-date card-date">
-          ${date}
+          ${sanitizeHTML(date)}
         </p>
         <div class="github-history__commit-author">
           <img
-            src="${avatar}"
+            src="${sanitizeHTML(avatar)}"
             alt="photo"
             class="github-history__commit-author-photo"
           />
           <div class="github-history__commit-author-contacts">
             <h3 class="github-history__commit-author-name">
-              ${name}
+              ${sanitizeHTML(name)}
             </h3>
             <p class="github-history__commit-author-email">
-              ${email}
+              ${sanitizeHTML(email)}
             </p>
           </div>
         </div>
         <p class="github-history__commit-text card-paragraph">
-          ${message}
+          ${sanitizeHTML(message)}
         </p>
       </div>
     </a>

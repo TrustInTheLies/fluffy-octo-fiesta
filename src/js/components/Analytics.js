@@ -36,9 +36,9 @@ export default class Analytics {
     return arr;
   }
 
-  setDates(arr, day) {
+  setDates(datesArr, day) {
     const options = { day: "numeric", weekday: "short" };
-    arr.forEach((date) => {
+    datesArr.forEach((date) => {
       date.textContent = new Date(
         day.setDate(day.getDate() + 1)
       ).toLocaleDateString("ru", options);

@@ -5,8 +5,7 @@ import "../src/pages/about.css";
 import GitHubApi from "./js/modules/GitHubApi";
 import GitHubCards from "./js/components/GitHubCards";
 import CommitCard from "./js/components/CommitCard";
-
-const commitsArray = document.querySelector(".github-history__commits");
+import { commitsArray } from "./js/constants/constants";
 
 const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",

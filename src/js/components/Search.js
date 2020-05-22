@@ -2,13 +2,13 @@ export default class Search {
   checkInput(field) {
     if (field.validity.valueMissing) {
       field.setCustomValidity("Нужно ввести ключевое слово");
-    } else {
-      field.setCustomValidity("");
     }
+    field.setCustomValidity("");
   }
-  loading(processing, loader) {
+  loading(processing, loader, prevResults) {
     if (processing) {
       loader.style.display = "block";
+      prevResults.style.display = "none";
     } else {
       loader.style.display = "none";
     }

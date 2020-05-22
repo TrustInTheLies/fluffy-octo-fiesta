@@ -3,14 +3,19 @@ import NewsApi from "./js/modules/NewsApi";
 import Search from "./js/components/Search";
 import NewsCard from "./js/components/NewsCard";
 import NewsCards from "./js/components/NewsCards";
+import {
+  form,
+  searching,
+  searchResults,
+  searchFailed,
+  errorTitle,
+  errorMessage,
+  formInput,
+  searchButton,
+  showMore,
+  newsArray,
+} from "./js/constants/constants";
 
-const form = document.querySelector(".form");
-const searching = document.querySelector(".searching");
-const searchResults = document.querySelector(".search-results");
-const searchFailed = document.querySelector(".search-failed");
-const inputValue = document.querySelector(".form__input");
-const showMore = document.querySelector(".search-results__show-more");
-const newsArray = document.querySelector(".search-results__cards");
 let cardOne = 0;
 let cardThree = 3;
 
@@ -20,21 +25,28 @@ const cards = new NewsCards(newsArray, NewsCard, api, cardOne, cardThree);
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  search.checkInput(inputValue);
-  search.loading(true, searching);
+  search.checkInput(formInput);
+  search.loading(true, searching, searchResults);
+  searchButton.setAttribute("disabled", "disabled");
+  formInput.setAttribute("disabled", "disabled");
   api
-    .request(inputValue)
+    .request(formInput)
     .then(() => {
       cards.resetResults(newsArray);
       cards.renderList(searchResults);
       cards.hideButton(showMore);
       search.nothingFound(searchFailed, searchResults);
-      localStorage.setItem("keyword", inputValue.value);
+      localStorage.setItem("keyword", formInput.value);
     })
-    .catch((err) => {
-      console.log(err);
+    .catch(() => {
+      searchFailed.style.display = "flex";
+      errorTitle.textContent = "Простите :(";
+      errorMessage.textContent =
+        "Что-то пошло не так, попробуйте повторить запрос позже";
     })
     .finally(() => {
+      searchButton.removeAttribute("disabled");
+      formInput.removeAttribute("disabled");
       search.loading(false, searching);
     });
 });

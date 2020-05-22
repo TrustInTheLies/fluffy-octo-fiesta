@@ -11,19 +11,19 @@ export default class GitHubCards {
   }
   renderList(swiper) {
     this.swiper = swiper;
-    let data = JSON.parse(localStorage.getItem("commits"));
+    const commitsArr = JSON.parse(localStorage.getItem("commits"));
     const options = { day: "numeric", month: "long", year: "numeric" };
-    for (let index = 0; index < data.length; index++) {
+    for (let index = 0; index < commitsArr.length; index++) {
       this.renderCard(
-        data[index].html_url,
-        data[index].commit.author.name,
-        data[index].commit.author.email,
-        new Date(data[index].commit.author.date).toLocaleDateString(
+        commitsArr[index].html_url,
+        commitsArr[index].commit.author.name,
+        commitsArr[index].commit.author.email,
+        new Date(commitsArr[index].commit.author.date).toLocaleDateString(
           "ru",
           options
         ),
-        data[index].commit.message,
-        data[index].author.avatar_url
+        commitsArr[index].commit.message,
+        commitsArr[index].author.avatar_url
       );
     }
     this.swiper.update();
