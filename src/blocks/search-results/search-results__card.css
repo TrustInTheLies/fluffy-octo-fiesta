@@ -2,14 +2,21 @@
 @import url(./search-results__card-image.css);
 @import url(../card/card.css);
 
+.search-results__card {
+  max-width: 400px;
+  max-height: 576px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .search-results__card {
     max-width: 224px;
+    max-height: 420px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .search-results__card {
     max-width: 288px;
+    max-height: 450px;
   }
 }

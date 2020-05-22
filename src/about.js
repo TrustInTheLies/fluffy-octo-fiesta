@@ -2,8 +2,12 @@ import "../node_modules/swiper/css/swiper.min.css";
 import "../node_modules/swiper/js/swiper.min.js";
 import Swiper from "swiper";
 import "../src/pages/about.css";
+import GitHubApi from "./js/modules/GitHubApi";
+import GitHubCards from "./js/components/GitHubCards";
+import CommitCard from "./js/components/CommitCard";
+import { commitsArray } from "./js/constants/constants";
 
-var swiper = new Swiper(".swiper-container", {
+const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",
   slidesPerView: "auto",
   spaceBetween: 16,
@@ -15,3 +19,8 @@ var swiper = new Swiper(".swiper-container", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const githubApi = new GitHubApi();
+const commits = new GitHubCards(commitsArray, CommitCard, githubApi);
+githubApi.request();
+commits.renderList(swiper);

@@ -5,31 +5,3 @@
   height: 24px;
   align-self: center;
 }
-
-.analysis__value:nth-child(1) {
-  width: 15%;
-}
-
-.analysis__value:nth-child(2) {
-  width: 18%;
-}
-
-.analysis__value:nth-child(3) {
-  width: 11%;
-}
-
-.analysis__value:nth-child(4) {
-  width: 39%;
-}
-
-.analysis__value:nth-child(5) {
-  width: 45%;
-}
-
-.analysis__value:nth-child(6) {
-  width: 73%;
-}
-
-.analysis__value:nth-child(7) {
-  width: 34%;
-}

@@ -4,6 +4,7 @@
 @import url(./search-results__card-date.css);
 
 .search-results {
+  display: none;
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
