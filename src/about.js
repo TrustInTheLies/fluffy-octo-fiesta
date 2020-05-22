@@ -22,4 +22,5 @@ const swiper = new Swiper(".swiper-container", {
 
 const githubApi = new GitHubApi();
 const commits = new GitHubCards(commitsArray, CommitCard, githubApi);
+guthubApi.request();
 commits.renderList(swiper);
