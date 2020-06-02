@@ -16,9 +16,9 @@ export default class GitHubCards {
     for (let index = 0; index < commitsArr.length; index++) {
       this.renderCard(
         commitsArr[index].html_url,
-        commitsArr[index].commit.author.name,
-        commitsArr[index].commit.author.email,
-        new Date(commitsArr[index].commit.author.date).toLocaleDateString(
+        commitsArr[index].commit.committer.name,
+        commitsArr[index].commit.committer.email,
+        new Date(commitsArr[index].commit.committer.date).toLocaleDateString(
           "ru",
           options
         ),
